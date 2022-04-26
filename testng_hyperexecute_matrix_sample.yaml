@@ -29,7 +29,7 @@ pre:
   - mvn -Dmaven.repo.local=$CACHE_DIR -Dmaven.test.skip=true clean install
 
 post:
-  - cat yaml/win/testng_hyperexecute_matrix_sample.yaml
+  - cat testng_hyperexecute_matrix_sample.yaml
 
 mergeArtifacts: true
 
